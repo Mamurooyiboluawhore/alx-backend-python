@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+""" Complex types - string and int/float to tuple"""
+from typing import Str, Union, Int
+
+
+def to_kv(k: str, v: int | float) -> tuple:
+    return (Union(Str (k)) (int | float(v))
